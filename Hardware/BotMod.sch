@@ -10100,7 +10100,6 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <part name="R8" library="resistor" deviceset="R-US_" device="R1206" value="1k"/>
 <part name="GND6" library="SparkFun" deviceset="GND" device=""/>
 <part name="LD" library="SpaceDIY" deviceset="KEYES_LASER" device="" value="LASER"/>
-<part name="R1" library="resistor" deviceset="R-US_" device="R1206" value="90"/>
 <part name="GND7" library="SparkFun" deviceset="GND" device=""/>
 <part name="U1" library="LSM303D" deviceset="LSM303D" device=""/>
 <part name="GND8" library="supply1" deviceset="GND" device=""/>
@@ -10191,8 +10190,7 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <instance part="T1" gate="G$1" x="149.86" y="66.04"/>
 <instance part="R8" gate="G$1" x="139.7" y="66.04" rot="R180"/>
 <instance part="GND6" gate="1" x="152.4" y="50.8"/>
-<instance part="LD" gate="G$1" x="223.52" y="58.42"/>
-<instance part="R1" gate="G$1" x="223.52" y="73.66" rot="R90"/>
+<instance part="LD" gate="G$1" x="223.52" y="66.04"/>
 <instance part="GND7" gate="1" x="223.52" y="45.72"/>
 <instance part="U1" gate="G$1" x="60.96" y="99.06" rot="MR0"/>
 <instance part="GND8" gate="1" x="83.82" y="78.74" rot="MR0"/>
@@ -10274,7 +10272,7 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <segment>
 <pinref part="LD" gate="G$1" pin="K"/>
 <pinref part="GND7" gate="1" pin="GND"/>
-<wire x1="223.52" y1="48.26" x2="223.52" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="223.52" y1="48.26" x2="223.52" y2="58.42" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="GND5"/>
@@ -10490,9 +10488,9 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <pinref part="SV1" gate="G$1" pin="9"/>
 </segment>
 <segment>
-<pinref part="R1" gate="G$1" pin="2"/>
-<wire x1="223.52" y1="78.74" x2="223.52" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="223.52" y1="73.66" x2="223.52" y2="83.82" width="0.1524" layer="91"/>
 <label x="223.52" y="83.82" size="1.778" layer="95"/>
+<pinref part="LD" gate="G$1" pin="A"/>
 </segment>
 </net>
 <net name="D6" class="0">
@@ -10617,13 +10615,6 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <pinref part="T1" gate="G$1" pin="B"/>
 <pinref part="R8" gate="G$1" pin="1"/>
 <wire x1="144.78" y1="66.04" x2="147.32" y2="66.04" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$9" class="0">
-<segment>
-<pinref part="LD" gate="G$1" pin="A"/>
-<pinref part="R1" gate="G$1" pin="1"/>
-<wire x1="223.52" y1="68.58" x2="223.52" y2="66.04" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$10" class="0">
