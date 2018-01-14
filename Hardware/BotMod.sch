@@ -10090,7 +10090,7 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <part name="R9" library="resistor" deviceset="R-US_" device="R1206" value="10k"/>
 <part name="R10" library="resistor" deviceset="R-US_" device="R1206" value="10k"/>
 <part name="R6" library="resistor" deviceset="R-US_" device="R1206" value="200"/>
-<part name="R7" library="resistor" deviceset="R-US_" device="R1206" value="200"/>
+<part name="R1" library="resistor" deviceset="R-US_" device="R1206" value="200"/>
 <part name="P+2" library="SparkFun" deviceset="3.3V" device="" value="VCC"/>
 <part name="P+3" library="SparkFun" deviceset="3.3V" device="" value="VCC"/>
 <part name="P+4" library="SparkFun" deviceset="3.3V" device="" value="VCC"/>
@@ -10108,7 +10108,7 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <part name="P+9" library="SparkFun" deviceset="3.3V" device="" value="VCC"/>
 <part name="P+10" library="SparkFun" deviceset="3.3V" device="" value="VCC"/>
 <part name="T1" library="transistor" deviceset="*-NPN-" device="SOT23-BEC" technology="BC808" value="MMBT2222A"/>
-<part name="R8" library="resistor" deviceset="R-US_" device="R1206" value="1k"/>
+<part name="R7" library="resistor" deviceset="R-US_" device="R1206" value="1k"/>
 <part name="GND6" library="SparkFun" deviceset="GND" device=""/>
 <part name="LD" library="SpaceDIY" deviceset="KEYES_LASER" device="" value="LASER"/>
 <part name="GND7" library="SparkFun" deviceset="GND" device=""/>
@@ -10124,7 +10124,7 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <part name="3.3V1" library="SparkFun" deviceset="3.3V" device="" value="3.3V"/>
 <part name="Q1" library="adafruit" deviceset="MOSFET-N" device="REFLOW" value="BSS138"/>
 <part name="R15" library="resistor" deviceset="R-US_" device="R1206" value="10k"/>
-<part name="R16" library="resistor" deviceset="R-US_" device="R1206" value="10k"/>
+<part name="R8" library="resistor" deviceset="R-US_" device="R1206" value="10k"/>
 <part name="3.3V6" library="SparkFun" deviceset="3.3V" device="" value="3.3v"/>
 <part name="P+11" library="SparkFun" deviceset="3.3V" device="" value="VCC"/>
 <part name="3.3V7" library="SparkFun" deviceset="3.3V" device="" value="3.3v"/>
@@ -10180,7 +10180,7 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <instance part="R9" gate="G$1" x="152.4" y="127" rot="R90"/>
 <instance part="R10" gate="G$1" x="182.88" y="127" rot="R90"/>
 <instance part="R6" gate="G$1" x="142.24" y="127" rot="R90"/>
-<instance part="R7" gate="G$1" x="172.72" y="127" rot="R90"/>
+<instance part="R1" gate="G$1" x="172.72" y="127" rot="R90"/>
 <instance part="P+2" gate="G$1" x="142.24" y="160.02"/>
 <instance part="P+3" gate="G$1" x="152.4" y="160.02"/>
 <instance part="P+4" gate="G$1" x="172.72" y="160.02"/>
@@ -10198,7 +10198,7 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <instance part="P+9" gate="G$1" x="190.5" y="78.74"/>
 <instance part="P+10" gate="G$1" x="200.66" y="78.74"/>
 <instance part="T1" gate="G$1" x="149.86" y="66.04"/>
-<instance part="R8" gate="G$1" x="139.7" y="66.04" rot="R180"/>
+<instance part="R7" gate="G$1" x="139.7" y="66.04" rot="R180"/>
 <instance part="GND6" gate="1" x="152.4" y="50.8"/>
 <instance part="LD" gate="G$1" x="223.52" y="66.04"/>
 <instance part="GND7" gate="1" x="223.52" y="45.72"/>
@@ -10214,7 +10214,7 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <instance part="3.3V1" gate="G$1" x="83.82" y="119.38"/>
 <instance part="Q1" gate="G$1" x="83.82" y="147.32" rot="R270"/>
 <instance part="R15" gate="G$1" x="76.2" y="152.4" rot="R90"/>
-<instance part="R16" gate="G$1" x="91.44" y="152.4" rot="R90"/>
+<instance part="R8" gate="G$1" x="91.44" y="152.4" rot="R90"/>
 <instance part="3.3V6" gate="G$1" x="76.2" y="160.02"/>
 <instance part="P+11" gate="G$1" x="91.44" y="160.02"/>
 <instance part="3.3V7" gate="G$1" x="83.82" y="160.02"/>
@@ -10261,7 +10261,7 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <wire x1="152.4" y1="119.38" x2="152.4" y2="121.92" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="R7" gate="G$1" pin="1"/>
+<pinref part="R1" gate="G$1" pin="1"/>
 <pinref part="GND4" gate="1" pin="GND"/>
 <wire x1="172.72" y1="119.38" x2="172.72" y2="121.92" width="0.1524" layer="91"/>
 </segment>
@@ -10404,7 +10404,7 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <segment>
 <wire x1="91.44" y1="157.48" x2="91.44" y2="160.02" width="0.1524" layer="91"/>
 <pinref part="P+11" gate="G$1" pin="3.3V"/>
-<pinref part="R16" gate="G$1" pin="2"/>
+<pinref part="R8" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <wire x1="50.8" y1="157.48" x2="50.8" y2="160.02" width="0.1524" layer="91"/>
@@ -10485,7 +10485,7 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <segment>
 <pinref part="Q1" gate="G$1" pin="D"/>
 <wire x1="88.9" y1="144.78" x2="91.44" y2="144.78" width="0.1524" layer="91"/>
-<pinref part="R16" gate="G$1" pin="1"/>
+<pinref part="R8" gate="G$1" pin="1"/>
 <wire x1="100.33" y1="144.78" x2="91.44" y2="144.78" width="0.1524" layer="91"/>
 <wire x1="91.44" y1="144.78" x2="91.44" y2="147.32" width="0.1524" layer="91"/>
 <label x="95.25" y="144.78" size="1.778" layer="95"/>
@@ -10511,7 +10511,7 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 </net>
 <net name="D6" class="0">
 <segment>
-<pinref part="R8" gate="G$1" pin="2"/>
+<pinref part="R7" gate="G$1" pin="2"/>
 <wire x1="134.62" y1="66.04" x2="127" y2="66.04" width="0.1524" layer="91"/>
 <label x="127" y="66.04" size="1.778" layer="95"/>
 </segment>
@@ -10571,7 +10571,7 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <net name="N$4" class="0">
 <segment>
 <pinref part="IR2" gate="G$1" pin="K"/>
-<pinref part="R7" gate="G$1" pin="2"/>
+<pinref part="R1" gate="G$1" pin="2"/>
 <wire x1="172.72" y1="132.08" x2="172.72" y2="137.16" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -10629,7 +10629,7 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <net name="N$2" class="0">
 <segment>
 <pinref part="T1" gate="G$1" pin="B"/>
-<pinref part="R8" gate="G$1" pin="1"/>
+<pinref part="R7" gate="G$1" pin="1"/>
 <wire x1="144.78" y1="66.04" x2="147.32" y2="66.04" width="0.1524" layer="91"/>
 </segment>
 </net>
