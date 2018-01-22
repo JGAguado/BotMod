@@ -15,3 +15,5 @@ No.	Design Ref	Description	Value	Package	Qty	Notes
 15	SV1	Pin header 2,54 - Straight	SFH11-PBPC-D08-ST-BK		1	Sullins Part No: SFH11-PBPC-D08-ST-BK
 16	T1	Bipolar Transistor	MMBT2222A	SOT23	1	
 17	U1	Accelerometer, magnetometer IC	LSM303D	LGA3X3_16L	1	http://www.st.com/content/ccc/resource/technical/document/datasheet/1c/9e/71/05/4e/b7/4d/d1/DM00057547.pdf/files/DM00057547.pdf/jcr:content/translations/en.DM00057547.pdf
+18	S1	Switch 2 pos - Right Angle	JS202011AQN	Through Hole	1	Mouser Part No: 611-JS202011AQN
+19	JP1, JP2	Pin header 2,54 - Straight	1x03	Through Hole	2	
